@@ -1,0 +1,113 @@
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  /* font-style: normal; */
+  font-size: 7.5em;
+  font-weight: bold;
+  font-style: unset;
+  color: white;
+  text-align: center;
+}
+
+
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 3.5em;
+  font-weight: bold;
+  color: darkgreen;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid;
+  width:auto;
+  height:auto;
+  background-color: white;
+}
+
+td,th {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+img {
+  width: 1100px;height: 700px;  
+
+  margin-left: auto;
+  margin-right: auto  
+}
+/* 
+IMG.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto } */
+
+  /* P.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+} */
+
+video{
+  width: 1000px;height: 600px;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.bleu, .vert, .rouge, .argent, .jaune, .violet{
+  background-color: white;
+}
+
+.bleu:hover{
+  background-color: blue;
+  transition: 0.3s;
+  color: white;
+}
+
+.vert:hover {
+  background-color: green;
+  transition: 0.3s;
+  color: white;
+}
+
+.rouge:hover {
+  background-color: red;
+  transition: 0.3s;
+  color: white;
+}
+
+.argent:hover {
+  background-color: silver;
+  transition: 0.3s;
+  color: black;
+}
+
+.jaune:hover {
+  background-color: yellow;
+  transition: 0.3s;
+  color: black;
+}
+
+.violet:hover {
+  background-color: rgb(178,15,228);
+  transition: 0.3s;
+  color: white;
+}
